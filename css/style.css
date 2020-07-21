@@ -1,6 +1,6 @@
 /*--
-Main Heading font font-family: 'Julius Sans One', sans-serif; 
-https://fonts.google.com/specimen/Julius+Sans+One?query=gara&sidebar.open&selection.family=Julius+Sans+One#standard-styles
+Main Heading font font-family: 'Raleway', sans-serif; 
+https://fonts.google.com/specimen/Raleway?selection.family=Domine:wght@400;700|Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700|Raleway:wght@300;400;500;600;700&sidebar.open&preview.text=PATHS+TO+NETWORK&preview.text_type=custom
 
 Paragraph Font Family: font-family: 'Julius Sans One', sans-serif;
 font-family: 'Oxygen', sans-serif;
@@ -17,6 +17,30 @@ https://fonts.google.com/specimen/Oxygen?query=oxy&sidebar.open&selection.family
 body{
 	margin: 0px; /* Often browsers have a 5px margin by deafult*/
 	font-family: sans-serif;
+	background-color: #18191a;
+}
+
+
+h1{
+	font-family: 'Domine', serif;
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
+	color: #ebebeb;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+h2{
+	font-family: 'Domine', serif;
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
+	color: #ebebeb;
+}
+
+p {
+	font-family: 'Julius Sans One', sans-serif;
+	font-family: 'Oxygen', sans-serif;
+	color: #ebebeb;
 }
 
 section{
@@ -29,35 +53,105 @@ section{
 }
 
 header{
-	background-color: #b8ac91;
+	background-color: #687da1;
 	color: white; /* more pale orange */
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
 
+.title_cont {
+	text-align: center;
+	color: #ebebeb;
+}
+
 nav{
 	width: 100%;
 	height: 60px;
-	background-color: #f2eee4;
+	background-color: #1c1d1f;
+	display: inline-block;
+	text-align: center;
 }
 
-nav a, nav h3{
-	float: left;
+nav a{
+	color: #ebebeb;
 	margin: 0px;
 	line-height: 60px;
-	margin-left: 1em;
-	margin-right: 1em;
+	margin-left: 1.5em;
+	margin-right: 1.5em;
 	text-decoration: none;
+	text-align: center;
 }
 
 nav a:hover{
-	text-decoration: underline; /* Hover styles to let people know they can click it */
+	 /* Hover styles to let people know they can click it */
+	border-bottom: 2px solid #687da1;
+	text-decoration: none;
 }
 
 /*Links*/
 .link {
 	color: yellow;
 }
+
+.waterf_cont {
+	position: relative;
+	z-index: -1;
+}
+
+.img_over {
+	width: auto;
+	height: 728px;
+	margin-top: -733px;
+	background-color: #687da1;
+	opacity: 0.5;
+}
+
+.intro_cont {
+	background-color: grey;
+	width: auto;
+	height: 200px;
+	padding-top: 40px;
+	padding-bottom: 10px;
+}
+
+#one {
+	padding-top: 100px;
+}
+
+#one .g-row {
+	padding-top: 50px;
+}
+
+
+
+#two {
+	padding-top: 100px;
+}
+
+#two .g-row {
+	padding-top: 50px;
+}
+
+
+#three {
+	padding-top: 100px;
+}
+
+#three .g-row {
+	padding-top: 50px;
+}
+
+
+#four {
+	padding-top: 100px;
+}
+
+#four .g-row {
+	padding-top: 50px;
+}
+
+
+
 
 /* Simple grid */
 .g-row{
@@ -84,22 +178,6 @@ nav a:hover{
 	float: left;
 }
 
-.show{
-	border: 1px solid blue; /*border of the grid example layout*/
-	padding: 2px;
-}
-
 .padded{
 	padding: 20px; /* I add this to cells to add a little padding*/
-}
-
-h1{
-	font-family: 'Julius Sans One', sans-serif; 
-	color: #000000;
-}
-
-p {
-	font-family: 'Julius Sans One', sans-serif;
-	font-family: 'Oxygen', sans-serif;
-	color: #000000;
 }
