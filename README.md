@@ -1,3 +1,5 @@
-**Testing Github commits**
+**Finalising Design**
 
-Testing if I am commiting properly to my git repository.
+I have added my images and text in this update. I have changed the wireframe of the starter code quite a bit so that the images could flow better with the overall layout. Challenges I have come accross are using margin, padding, and display. It has been a while since I have coded in html and css so I had to keep changing the numbers and variables so that it would all fit correctly. I have not used flex display before so that was interesting to try, and am hoping the code works and runs the same on other computers other than from my laptop. 
+
+The four categories of information on internet infrastructure I have inserted are antennas, manhole covers, cameras, and other(spark telephone booth & bus stop schedule sign). I had to research information about these to ensure I was sharing the right information. All the photos I have taken are in the main Wellington city area.
