@@ -1,0 +1,183 @@
+/*--
+Main Heading font font-family: 'Raleway', sans-serif; 
+https://fonts.google.com/specimen/Raleway?selection.family=Domine:wght@400;700|Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700|Raleway:wght@300;400;500;600;700&sidebar.open&preview.text=PATHS+TO+NETWORK&preview.text_type=custom
+
+Paragraph Font Family: font-family: 'Julius Sans One', sans-serif;
+font-family: 'Oxygen', sans-serif;
+https://fonts.google.com/specimen/Oxygen?query=oxy&sidebar.open&selection.family=Julius+Sans+One|Oxygen
+
+*/
+
+*{
+	box-sizing: border-box; 
+	/* This makes the widths of elements more consistent
+		Full details here https://css-tricks.com/box-sizing/ */
+}
+
+body{
+	margin: 0px; /* Often browsers have a 5px margin by deafult*/
+	font-family: sans-serif;
+	background-color: #18191a;
+}
+
+
+h1{
+	font-family: 'Domine', serif;
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
+	color: #ebebeb;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+h2{
+	font-family: 'Domine', serif;
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
+	color: #ebebeb;
+}
+
+p {
+	font-family: 'Julius Sans One', sans-serif;
+	font-family: 'Oxygen', sans-serif;
+	color: #ebebeb;
+}
+
+section{
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+
+header{
+	background-color: #687da1;
+	color: white; /* more pale orange */
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.title_cont {
+	text-align: center;
+	color: #ebebeb;
+}
+
+nav{
+	width: 100%;
+	height: 60px;
+	background-color: #1c1d1f;
+	display: inline-block;
+	text-align: center;
+}
+
+nav a{
+	color: #ebebeb;
+	margin: 0px;
+	line-height: 60px;
+	margin-left: 1.5em;
+	margin-right: 1.5em;
+	text-decoration: none;
+	text-align: center;
+}
+
+nav a:hover{
+	 /* Hover styles to let people know they can click it */
+	border-bottom: 2px solid #687da1;
+	text-decoration: none;
+}
+
+/*Links*/
+.link {
+	color: yellow;
+}
+
+.waterf_cont {
+	position: relative;
+	z-index: -1;
+}
+
+.img_over {
+	width: auto;
+	height: 728px;
+	margin-top: -733px;
+	background-color: #687da1;
+	opacity: 0.5;
+}
+
+.intro_cont {
+	background-color: grey;
+	width: auto;
+	height: 200px;
+	padding-top: 40px;
+	padding-bottom: 10px;
+}
+
+#one {
+	padding-top: 100px;
+}
+
+#one .g-row {
+	padding-top: 50px;
+}
+
+
+
+#two {
+	padding-top: 100px;
+}
+
+#two .g-row {
+	padding-top: 50px;
+}
+
+
+#three {
+	padding-top: 100px;
+}
+
+#three .g-row {
+	padding-top: 50px;
+}
+
+
+#four {
+	padding-top: 100px;
+}
+
+#four .g-row {
+	padding-top: 50px;
+}
+
+
+
+
+/* Simple grid */
+.g-row{
+	width: 100%;
+	overflow: hidden;
+}
+
+.g-row img{
+	width: 100%; /*This makes all images in grids to be the size of their cell */
+}
+
+.g-50{
+	width: 50%;
+	float: left;
+}
+
+.g-30{
+	width: 30%;
+	float: left;
+}
+
+.g-70{
+	width: 70%;
+	float: left;
+}
+
+.padded{
+	padding: 20px; /* I add this to cells to add a little padding*/
+}
